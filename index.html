@@ -20,15 +20,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,28 +52,17 @@
                         <img src="assests/img/google_plus_20.png" alt="Google_Plus" border="0" class="socialIcon" />
                     </a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
                         Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#portfolioSection">Portfolio</a>
+                        <a class="dropdown-item" href="#aboutSection">About</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#contactSection">Contact</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -86,17 +76,18 @@
     <header>
         <div class="jumbotron1 jumbotron-fluid">
             <div class="container1">
-                <h1 class="header1">Andrew Gunst</h1>
-                <h3 class="header2">Web Developer</h3>
+                <h1 class="header1 wow bounce" data-wow-duration="2s">Andrew C. Gunst</h1>
+                <h3 class="header2 wow bounceIn" data-wow-delay="1s">Web Developer</h3>
             </div>
         </div>
     </header>
 
     <!-- Portfolio -->
-    <section>
+    <section id="portfolioSection">
+        <h1 id="portfolioHeader" class="wow bounceOut">Portfolio</h1>
         <div id="projectBackground" class="jumbotron2 jumbotron-fluid">
             <div class="container2">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 750px; margin: 0 auto">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -148,10 +139,10 @@
 
 
     <!-- About -->
-    <section class="wow fadeInLeft">
+    <section id="aboutSection">
         <div class="jumbotron3 jumbotron-fluid">
             <div class="container3">
-                <h1 class="display-4">Profile</h1>
+                <h1 class="about">Profile</h1>
                 <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
                 <a href="https://docs.google.com/document/d/12AjkTBqkqRyhxZmN569SWbOXj_vSfAp5zMtDzUFeMKQ/edit" target="_blank">My Resume</a>
             </div>
@@ -159,14 +150,12 @@
     </section>
 
     <!-- Contact -->
-    <section class="text-center">
+    <section id="contactSection" class="text-center">
         <div class="jumbotron4 jumbotron-fluid">
             <div class="container4">
                 <h1 class="display-4">Contact</h1>
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    Contact Me
-                </button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter">Contact Me for Further Inquiries</button>
 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -196,6 +185,14 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div id="logo">
+                <a href="https://github.com/agunst99" target="_blank">
+                    <img class="contactBar wow bounce" src="assests/logo/GitHub-Mark.png" alt="gitHub" border="0" class="socialLogo">
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-gunst-606359156/" target="_blank">
+                        <img src="assests/logo/linkedin-icon-logo-FBADE03110-seeklogo.com.png" alt="linkedIn" border="0" class="socialLogo">
+                </a>
             </div>
         </div>
     </section>
@@ -265,7 +262,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
-    <script src="node_modules/wowjs/dist/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="js/main.js"></script>
 </body>
 
