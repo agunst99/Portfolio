@@ -27,8 +27,10 @@ body {
   color: grey; }
 
 /* CSS code for the Portfolio section. */
-#portfolioHeader {
-  text-align: center; }
+.portfolioH1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 75px; }
 
 /* CSS code for the About section. */
 .container3 {
