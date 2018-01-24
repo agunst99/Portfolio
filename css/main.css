@@ -1,74 +1,75 @@
-/* General CSS stuff goes here. */
+/* Variables used throughout will go here. */
+body {
+  background: url("https://i.imgur.com/bkV3lO1.jpg"); }
 
-/* Footer */
-body{
-  font-family: 'Raleway', sans-serif;
-}
-
+/* CSS code for the Navbar section. */
 .socialIcon {
-  margin: .5em;
-}
+  margin: .5em; }
 
+/* CSS code for the Header section. */
+.jumbotron1 {
+  background: transparent; }
 
+.container1 {
+  Background: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
 
+.header1 {
+  text-align: center;
+  color: grey; }
 
+.header2 {
+  text-align: center;
+  color: grey; }
 
+/* CSS code for the Portfolio section. */
+.jumbotron2 {
+  background: transparent;
+  margin: 5em; }
 
+/* CSS code for the About section. */
+/* CSS code for the Contact section. */
+/* CSS code for the Footer section. */
+footer {
+  background-color: #222222;
+  padding: 60px 0px; }
 
+footer ul {
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+  padding-top: 50px; }
 
+footer ul li {
+  float: left; }
 
-/* Footer */
+footer ul li a {
+  color: #b1aca1;
+  padding: 20px; }
 
-footer{
-	background-color:#222222;
-    padding: 60px 0px;
-}
+footer ul li a:hover {
+  color: #7dabdb;
+  text-decoration: none; }
 
-footer ul{
-    list-style:none;
-    margin:0 auto;
-    display:inline-block;
-    padding-top:50px;
-}
+.footer-top {
+  padding-bottom: 50px; }
 
-footer ul li{
-    float:left;
-}
+.footer-top .fa {
+  font-size: 18px;
+  color: #FFF;
+  padding-right: 10px; }
 
-footer ul li a{
-	color:#b1aca1;
-    padding:20px;
-}
+.footer-top a {
+  color: #FFF;
+  text-decoration: none; }
 
-footer ul li a:hover{
-	color:#7dabdb;
-	text-decoration:none;
-}
+.footer-top .col-lg-2:hover .fa, .footer-top .col-lg-2:hover a {
+  color: #7dabdb; }
 
-.footer-top{
-	padding-bottom:50px;
-}
+.copyright {
+  background-color: #f0f0f0; }
 
-.footer-top .fa{
-    font-size:18px;
-    color: #FFF;
-    padding-right:10px;
-}
-
-.footer-top a{
-    color:#FFF;
-    text-decoration:none;
-}
-
-.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
-    color:#7dabdb;
-}
-
-.copyright{
-    background-color:#f0f0f0;
-}
-
-.copyright p{
-	font-size:12px;
-	padding:15px 0 10px 0;
-}
+.copyright p {
+  font-size: 12px;
+  padding: 15px 0 10px 0; }
