@@ -1,10 +1,29 @@
 /* Variables used throughout will go here. */
 body {
-  background: url("https://i.imgur.com/bkV3lO1.jpg"); }
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRwWCV-bbwAItpOBll7LIiQpPnYbzvhFcTf1fd_SpLDnYK0YZrLw"); }
 
 /* CSS code for the Navbar section. */
 .socialIcon {
   margin: .5em; }
+
+.navbar {
+  background-image: none;
+  background: url("https://i.ytimg.com/vi/kkVGBn-haDo/maxresdefault.jpg"); }
+
+.nav-item {
+  font: darkgrey; }
+
+#navList {
+  background-color: black;
+  border: gold solid .5px;
+  border-radius: 50em 50em 50em 50em; }
+
+#navBtn {
+  font-size: 15px;
+  color: yellow; }
+
+#navBtn:hover {
+  color: green; }
 
 /* CSS code for the Header section. */
 .jumbotron1 {
@@ -17,20 +36,23 @@ body {
   font-family: 'VT323', monospace;
   padding-top: 100px;
   text-align: center;
-  color: grey; }
+  color: #23d40c; }
 
 .header2 {
   font-family: 'VT323', monospace;
   font-size: 100px;
   padding-top: 150px;
   text-align: center;
-  color: grey; }
+  color: #1fc509; }
 
 /* CSS code for the Portfolio section. */
 .portfolioH1 {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-size: 75px; }
+
+.rowOne {
+  text-align: center; }
 
 /* CSS code for the About section. */
 .container3 {

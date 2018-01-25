@@ -2,3 +2,27 @@
 .socialIcon {
   margin: .5em;
 }
+
+.navbar {
+  background-image: none;
+  background: url('https://i.ytimg.com/vi/kkVGBn-haDo/maxresdefault.jpg');
+}
+
+.nav-item {
+  font: darkgrey;
+}
+
+#navList {
+  background-color: opacify($color: #000000, $amount: 0);
+  border: gold solid .5px;
+  border-radius: 50em 50em 50em 50em;
+}
+
+#navBtn {
+  font-size: 15px;
+  color: yellow;
+}
+
+#navBtn:hover {
+  color: green;
+}
